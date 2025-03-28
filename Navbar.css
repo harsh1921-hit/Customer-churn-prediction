@@ -1,0 +1,96 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #162447;
+  color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 50px; /* Adjust logo size */
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-logo span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #e43f5a;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-links li {
+  font-size: 1em;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #f8b400;
+}
+
+/* Login Button */
+.navbar-login {
+  background-color: #e43f5a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-login:hover {
+  background-color: #f35f7f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+  }
+
+  .navbar-links {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+  }
+
+  .navbar-links a {
+      font-size: 1.2em;
+  }
+
+  .navbar-logo span {
+      font-size: 1.3em;
+  }
+}

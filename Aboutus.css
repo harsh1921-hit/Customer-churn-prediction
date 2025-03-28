@@ -1,0 +1,55 @@
+.about-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #1a1a2e, #162447);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    line-height: 1.8; /* Improved readability */
+}
+
+.about-content h1, h2 {
+    color: #00b4d8;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills-list li {
+    background-color: #00b4d8;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #162447;
+    transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: #0294b2;
+    transform: scale(1.05);
+}
+
+a {
+    color: #f8b400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
